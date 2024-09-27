@@ -1,6 +1,6 @@
 # GotU Assistant App
 
-![License](https://img.shields.io/github/license/your-username/gotu-assistant-app)
+![License](https://img.shields.io/github/license/Kaydenletk/gotu-assistant-app)
 ![Python Version](https://img.shields.io/badge/python-3.12-blue)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange)
@@ -61,90 +61,82 @@ In today's fast-paced educational environment, students need quick and efficient
    ```bash
    git clone https://github.com/Kaydenletk/gotu-assistant-app.git
    cd gotu-assistant-app
-
+   ```
 2. **Set Up a Virtual Environment**
 
   ```bash
   python3 -m venv venv
   source venv/bin/activate
-
+  ```
 3. **Install Dependencies**
+
   ```bash
   pip install -r requirements.txt
-
+  ```
 4. **Configure Environment Variables**
-  Create a .env file in the root directory and add your OpenAI API key:
-  ```dotenv
-OPENAI_API_KEY=your-api-key-here
 
-##Usage
+Create a `.env` file in the root directory and add your OpenAI API key:
+
+```dotenv
+    OPENAI_API_KEY=your-api-key-here
+```
+
+## Usage
+
 To start the GotU Assistant, run:
 
-  ```bash
+   ```bash
+   python3 main.py start
+   ```
 
-  python3 main.py start
+The assistant will greet you with the following:
 
-##The assistant will greet you with:
-
-"Hey, how can I help you today!"
+*"Hey, how can I help you today!"*
 
 You can then ask questions or request information verbally, and the assistant will provide immediate spoken responses.
 
-##Example Interactions
+## Example Interactions
 
-**Academic Queries**
+- **Academic Queries**
 
-"What is the Pythagorean theorem?"
-"Explain the concept of supply and demand."
+    - "What is the Pythagorean theorem?"
+    - "Explain the concept of supply and demand."
+    
+- **General Knowledge**
+  
+    - "Who wrote 'To Kill a Mockingbird'?"
+    - "What is the capital of France?"
+    
+- **Productivity Assistance**
+    
+    - "Set a reminder for my study session at 6 PM."
+    - "Add 'Buy textbooks' to my to-do list."
 
-**General Knowledge**
+## Future Development
+    We plan to enhance GotU Assistant with additional features:
+    
+- **Multilingual Support:** Enable interactions in multiple languages.
+    Integration with Educational Platforms: Connect with services like Blackboard or Canvas.
+- **Personalized Learning Paths**: Provide customized study recommendations based on user interactions.
+    Offline Mode: Basic functionalities without the need for an internet connection.
+    
+## Contributing
+    We welcome contributions from the community!
+- **Open a Pull Request**
 
-"Who wrote 'To Kill a Mockingbird'?"
-"What is the capital of France?"
-
-**Productivity Assistance**
-
-"Set a reminder for my study session at 6 PM."
-"Add 'Buy textbooks' to my to-do list."
-
-##Future Development
-
-We plan to enhance GotU Assistant with additional features:
-
-Multilingual Support: Enable interactions in multiple languages.
-Integration with Educational Platforms: Connect with services like Blackboard or Canvas.
-Personalized Learning Paths: Provide customized study recommendations based on user interactions.
-Offline Mode: Basic functionalities without the need for an internet connection.
-
-##Contributing
-We welcome contributions from the community!
-
-1.**Fork the Repository**
-
-2.**Create a Feature Branch**
-
-  ```bash
-  git checkout -b feature/your-feature
-  Commit Your Changes
-
-bash
-Copy code
-git commit -m 'Add your feature'
-Push to the Branch
-
-bash
-Copy code
-git push origin feature/your-feature
-Open a Pull Request
-
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+## Contact
 For questions or inquiries:
 
-Name: Your Name
-Email: your.email@example.com
-LinkedIn: Your LinkedIn Profile
-GitHub: your-username
-GotU Assistant App is continually evolving. Stay tuned for updates and feel free to reach out for collaboration opportunities!
+-**Name**: Kayden (Khanh) Le
+
+-**Email**: kaydenletk@gmail.com
+
+-**LinkedIn**: https://www.linkedin.com/in/kaydenle/
+
+-**GitHub**: https://github.com/Kaydenletk
+
+
+*GotU Assistant App is continually evolving. Stay tuned for updates and feel free to reach out for collaboration opportunities!*
