@@ -1,5 +1,3 @@
-markdown
-Copy code
 # GotU Assistant App
 
 ![License](https://img.shields.io/github/license/your-username/gotu-assistant-app)
@@ -44,7 +42,7 @@ In today's fast-paced educational environment, students need quick and efficient
 
 - **Programming Language**: Python 3.12
 - **Frameworks and Libraries**:
-  - [LiveKit Agents](https://github.com/livekit) for managing audio streams and real-time communication.
+  - [LiveKit Agents](https://github.com/livekit) is used to manage audio streams and real-time communication.
   - [OpenAI API](https://openai.com/) for advanced language understanding and generation.
   - [Silero VAD](https://github.com/snakers4/silero-vad) for Voice Activity Detection.
   - [Python Dotenv](https://pypi.org/project/python-dotenv/) for environment variable management.
@@ -61,69 +59,73 @@ In today's fast-paced educational environment, students need quick and efficient
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/gotu-assistant-app.git
+   git clone https://github.com/Kaydenletk/gotu-assistant-app.git
    cd gotu-assistant-app
-Set Up a Virtual Environment
 
-bash
-Copy code
-python3 -m venv venv
-source venv/bin/activate
-Install Dependencies
+2. **Set Up a Virtual Environment**
 
-bash
-Copy code
-pip install -r requirements.txt
-Configure Environment Variables
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
 
-Create a .env file in the root directory and add your OpenAI API key:
+3. **Install Dependencies**
+  ```bash
+  pip install -r requirements.txt
 
-dotenv
-Copy code
+4. **Configure Environment Variables**
+  Create a .env file in the root directory and add your OpenAI API key:
+  ```dotenv
 OPENAI_API_KEY=your-api-key-here
-Usage
+
+##Usage
 To start the GotU Assistant, run:
 
-bash
-Copy code
-python3 main.py start
-The assistant will greet you with:
+  ```bash
+
+  python3 main.py start
+
+##The assistant will greet you with:
 
 "Hey, how can I help you today!"
 
 You can then ask questions or request information verbally, and the assistant will provide immediate spoken responses.
 
-Example Interactions
-Academic Queries
+##Example Interactions
+
+**Academic Queries**
 
 "What is the Pythagorean theorem?"
 "Explain the concept of supply and demand."
-General Knowledge
+
+**General Knowledge**
 
 "Who wrote 'To Kill a Mockingbird'?"
 "What is the capital of France?"
-Productivity Assistance
+
+**Productivity Assistance**
 
 "Set a reminder for my study session at 6 PM."
 "Add 'Buy textbooks' to my to-do list."
-Future Development
+
+##Future Development
+
 We plan to enhance GotU Assistant with additional features:
 
 Multilingual Support: Enable interactions in multiple languages.
 Integration with Educational Platforms: Connect with services like Blackboard or Canvas.
 Personalized Learning Paths: Provide customized study recommendations based on user interactions.
 Offline Mode: Basic functionalities without the need for an internet connection.
-Contributing
+
+##Contributing
 We welcome contributions from the community!
 
-Fork the Repository
+1.**Fork the Repository**
 
-Create a Feature Branch
+2.**Create a Feature Branch**
 
-bash
-Copy code
-git checkout -b feature/your-feature
-Commit Your Changes
+  ```bash
+  git checkout -b feature/your-feature
+  Commit Your Changes
 
 bash
 Copy code
