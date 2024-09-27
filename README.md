@@ -30,7 +30,7 @@ GotU Assistant is an AI-powered voice assistant designed to revolutionize the wa
 
 ## Demo
 
-[![GotU Assistant Demo](https://img.youtube.com/vi/your-demo-video-id/0.jpg)](https://www.youtube.com/watch?v=your-demo-video-id)
+[![GotU Assistant Demo](https://img.youtube.com/vi/EvPk_0gugYs/0.jpg)](https://youtu.be/EvPk_0gugYs)
 
 *Click the image above to watch a demo of GotU Assistant in action.*
 
@@ -53,6 +53,7 @@ In today's fast-paced educational environment, students need quick and efficient
 
 - Python 3.12+
 - An OpenAI API key
+- Livekit
 
 ### Steps
 
@@ -77,17 +78,22 @@ In today's fast-paced educational environment, students need quick and efficient
 
 Create a `.env` file in the root directory and add your OpenAI API key:
 
-```dotenv
-    OPENAI_API_KEY=your-api-key-here
-```
+  ```dotenv
+  OPENAI_API_KEY=your-api-key-here
+  ```
+5. **Install Python packages:**
+   
+  ```bash
+  pip install \livekit \livekit-agents \livekit-plugins-deepgram \livekit-plugins-openai \livekit-plugins-silero
+  ```
 
 ## Usage
 
 To start the GotU Assistant, run:
 
-   ```bash
-   python3 main.py start
-   ```
+  ```bash
+  python3 main.py start
+  ```
 
 The assistant will greet you with the following:
 
@@ -113,7 +119,7 @@ You can then ask questions or request information verbally, and the assistant wi
     - "Add 'Buy textbooks' to my to-do list."
 
 ## Future Development
-    We plan to enhance GotU Assistant with additional features:
+  We plan to enhance GotU Assistant with additional features:
     
 - **Multilingual Support:** Enable interactions in multiple languages.
     Integration with Educational Platforms: Connect with services like Blackboard or Canvas.
@@ -121,7 +127,7 @@ You can then ask questions or request information verbally, and the assistant wi
     Offline Mode: Basic functionalities without the need for an internet connection.
     
 ## Contributing
-    We welcome contributions from the community!
+  We welcome contributions from the community!
 - **Open a Pull Request**
 
 ## License
