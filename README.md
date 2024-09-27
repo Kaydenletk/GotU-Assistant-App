@@ -1,6 +1,5 @@
 # GotU Assistant App
 
-![License](https://img.shields.io/github/license/Kaydenletk/gotu-assistant-app)
 ![Python Version](https://img.shields.io/badge/python-3.12-blue)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange)
