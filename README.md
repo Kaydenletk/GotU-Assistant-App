@@ -31,6 +31,7 @@ GotU Assistant is an AI-powered voice assistant designed to revolutionize the wa
 
 [![GotU Assistant Demo](https://img.youtube.com/vi/EvPk_0gugYs/0.jpg)](https://youtu.be/EvPk_0gugYs)
 
+
 *Click the image above to watch a demo of GotU Assistant in action.*
 
 ## Motivation
